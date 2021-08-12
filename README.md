@@ -23,11 +23,16 @@ On the Elk server, Filebeat is installed and used to monitor for Log files or lo
     
 The list below shows the name Function IP address and Operating system of the VM in my Cloud Network
 
-| Name	          | Function   | IP Address | Operating System 
-JumpBoxProvisioner       Gateway   10.0.0.4      Linux	
-Web1                     Webserver   10.0.0.5    Linux	
-Web2	              Webserver   10.0.0.6    Linux	
-ELK-Server               Webserver   10.1.0.4      Linux	
+
+
+Name	                  Function	  IP address	Operating system
+Jumpbox Provisioner	    Gateway	  10.0.0.4	     Linux
+Web1	                   Webserver	10.0.0.5	     Linux
+Web2                    	Webserver	10.0.0.6	    Linux
+ELK-Server	              Webserver	10.1.0.4	     Linux
+
+
+
 Only the _Jump box Provisioner VM has and Personal laptop can accept connections from the  Internet. Access to this machine is only allowed from the following IP addresses 71.17.51.161.
 The machines inside the network can only be accessed through the Jump box Provisioner
 
